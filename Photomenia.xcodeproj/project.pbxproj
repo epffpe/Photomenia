@@ -24,6 +24,9 @@
 		F15A8A021BC57348003D3BEE /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A011BC57348003D3BEE /* FlickrFetcher.m */; settings = {ASSET_TAGS = (); }; };
 		F15A8A051BC57638003D3BEE /* Photographer+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A041BC57638003D3BEE /* Photographer+Create.m */; settings = {ASSET_TAGS = (); }; };
 		F15A8A0D1BC57FE6003D3BEE /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A0C1BC57FE6003D3BEE /* CoreDataTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F15A8A101BC584D5003D3BEE /* PhotographersCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A0F1BC584D5003D3BEE /* PhotographersCDTVC.m */; settings = {ASSET_TAGS = (); }; };
+		F15A8A141BC58C1A003D3BEE /* AppDelegate+MOC.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A131BC58C1A003D3BEE /* AppDelegate+MOC.m */; settings = {ASSET_TAGS = (); }; };
+		F15A8A171BC59D4B003D3BEE /* MYDocumentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A161BC59D4B003D3BEE /* MYDocumentHandler.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,13 @@
 		F15A8A041BC57638003D3BEE /* Photographer+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Create.m"; sourceTree = "<group>"; };
 		F15A8A0B1BC57FE6003D3BEE /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
 		F15A8A0C1BC57FE6003D3BEE /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		F15A8A0E1BC584D5003D3BEE /* PhotographersCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotographersCDTVC.h; sourceTree = "<group>"; };
+		F15A8A0F1BC584D5003D3BEE /* PhotographersCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotographersCDTVC.m; sourceTree = "<group>"; };
+		F15A8A121BC58C1A003D3BEE /* AppDelegate+MOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MOC.h"; sourceTree = "<group>"; };
+		F15A8A131BC58C1A003D3BEE /* AppDelegate+MOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MOC.m"; sourceTree = "<group>"; };
+		F15A8A151BC59D4B003D3BEE /* MYDocumentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYDocumentHandler.h; sourceTree = "<group>"; };
+		F15A8A161BC59D4B003D3BEE /* MYDocumentHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYDocumentHandler.m; sourceTree = "<group>"; };
+		F15A8A181BC5BD8A003D3BEE /* PhotoDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoDatabaseAvailability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +138,11 @@
 		F15A89B81BC566A9003D3BEE /* Photomenia */ = {
 			isa = PBXGroup;
 			children = (
+				F15A8A181BC5BD8A003D3BEE /* PhotoDatabaseAvailability.h */,
+				F15A8A151BC59D4B003D3BEE /* MYDocumentHandler.h */,
+				F15A8A161BC59D4B003D3BEE /* MYDocumentHandler.m */,
+				F15A8A0E1BC584D5003D3BEE /* PhotographersCDTVC.h */,
+				F15A8A0F1BC584D5003D3BEE /* PhotographersCDTVC.m */,
 				F15A89EF1BC568A6003D3BEE /* Photo+CoreDataProperties.h */,
 				F15A89F01BC568A6003D3BEE /* Photo+CoreDataProperties.m */,
 				F15A89FB1BC56A13003D3BEE /* Photo+Flickr.h */,
@@ -197,9 +212,19 @@
 			children = (
 				F15A8A0B1BC57FE6003D3BEE /* CoreDataTableViewController.h */,
 				F15A8A0C1BC57FE6003D3BEE /* CoreDataTableViewController.m */,
+				F15A8A111BC58C1A003D3BEE /* MOC */,
 			);
 			name = CoreDateTableViewController2013;
 			path = ../CoreDateTableViewController2013;
+			sourceTree = "<group>";
+		};
+		F15A8A111BC58C1A003D3BEE /* MOC */ = {
+			isa = PBXGroup;
+			children = (
+				F15A8A121BC58C1A003D3BEE /* AppDelegate+MOC.h */,
+				F15A8A131BC58C1A003D3BEE /* AppDelegate+MOC.m */,
+			);
+			path = MOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,11 +363,14 @@
 				F15A89C11BC566A9003D3BEE /* ViewController.m in Sources */,
 				F15A89BE1BC566A9003D3BEE /* AppDelegate.m in Sources */,
 				F15A89BB1BC566A9003D3BEE /* main.m in Sources */,
+				F15A8A101BC584D5003D3BEE /* PhotographersCDTVC.m in Sources */,
 				F15A89FA1BC568A6003D3BEE /* Photographer.m in Sources */,
 				F15A89EE1BC5678D003D3BEE /* Photomenia.xcdatamodeld in Sources */,
+				F15A8A171BC59D4B003D3BEE /* MYDocumentHandler.m in Sources */,
 				F15A89FD1BC56A13003D3BEE /* Photo+Flickr.m in Sources */,
 				F15A89F71BC568A6003D3BEE /* Photo+CoreDataProperties.m in Sources */,
 				F15A8A021BC57348003D3BEE /* FlickrFetcher.m in Sources */,
+				F15A8A141BC58C1A003D3BEE /* AppDelegate+MOC.m in Sources */,
 				F15A89F91BC568A6003D3BEE /* Photographer+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,7 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Photomenia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.Photomenia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,7 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Photomenia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.Photomenia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
