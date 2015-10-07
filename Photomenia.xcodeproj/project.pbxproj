@@ -15,6 +15,12 @@
 		F15A89C91BC566A9003D3BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15A89C71BC566A9003D3BEE /* LaunchScreen.storyboard */; };
 		F15A89D41BC566A9003D3BEE /* PhotomeniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89D31BC566A9003D3BEE /* PhotomeniaTests.m */; };
 		F15A89DF1BC566A9003D3BEE /* PhotomeniaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89DE1BC566A9003D3BEE /* PhotomeniaUITests.m */; };
+		F15A89EE1BC5678D003D3BEE /* Photomenia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F15A89EC1BC5678D003D3BEE /* Photomenia.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		F15A89F71BC568A6003D3BEE /* Photo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89F01BC568A6003D3BEE /* Photo+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		F15A89F81BC568A6003D3BEE /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89F21BC568A6003D3BEE /* Photo.m */; settings = {ASSET_TAGS = (); }; };
+		F15A89F91BC568A6003D3BEE /* Photographer+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89F41BC568A6003D3BEE /* Photographer+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		F15A89FA1BC568A6003D3BEE /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89F61BC568A6003D3BEE /* Photographer.m */; settings = {ASSET_TAGS = (); }; };
+		F15A89FD1BC56A13003D3BEE /* Photo+Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89FC1BC56A13003D3BEE /* Photo+Flickr.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		F15A89DA1BC566A9003D3BEE /* PhotomeniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotomeniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15A89DE1BC566A9003D3BEE /* PhotomeniaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotomeniaUITests.m; sourceTree = "<group>"; };
 		F15A89E01BC566A9003D3BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15A89ED1BC5678D003D3BEE /* Photomenia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photomenia.xcdatamodel; sourceTree = "<group>"; };
+		F15A89EF1BC568A6003D3BEE /* Photo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F15A89F01BC568A6003D3BEE /* Photo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F15A89F11BC568A6003D3BEE /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		F15A89F21BC568A6003D3BEE /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		F15A89F31BC568A6003D3BEE /* Photographer+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photographer+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F15A89F41BC568A6003D3BEE /* Photographer+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photographer+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F15A89F51BC568A6003D3BEE /* Photographer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
+		F15A89F61BC568A6003D3BEE /* Photographer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
+		F15A89FB1BC56A13003D3BEE /* Photo+Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Flickr.h"; sourceTree = "<group>"; };
+		F15A89FC1BC56A13003D3BEE /* Photo+Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Flickr.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,17 @@
 		F15A89B81BC566A9003D3BEE /* Photomenia */ = {
 			isa = PBXGroup;
 			children = (
+				F15A89EF1BC568A6003D3BEE /* Photo+CoreDataProperties.h */,
+				F15A89F01BC568A6003D3BEE /* Photo+CoreDataProperties.m */,
+				F15A89FB1BC56A13003D3BEE /* Photo+Flickr.h */,
+				F15A89FC1BC56A13003D3BEE /* Photo+Flickr.m */,
+				F15A89F11BC568A6003D3BEE /* Photo.h */,
+				F15A89F21BC568A6003D3BEE /* Photo.m */,
+				F15A89F31BC568A6003D3BEE /* Photographer+CoreDataProperties.h */,
+				F15A89F41BC568A6003D3BEE /* Photographer+CoreDataProperties.m */,
+				F15A89F51BC568A6003D3BEE /* Photographer.h */,
+				F15A89F61BC568A6003D3BEE /* Photographer.m */,
+				F15A89EC1BC5678D003D3BEE /* Photomenia.xcdatamodeld */,
 				F15A89BC1BC566A9003D3BEE /* AppDelegate.h */,
 				F15A89BD1BC566A9003D3BEE /* AppDelegate.m */,
 				F15A89BF1BC566A9003D3BEE /* ViewController.h */,
@@ -270,9 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15A89F81BC568A6003D3BEE /* Photo.m in Sources */,
 				F15A89C11BC566A9003D3BEE /* ViewController.m in Sources */,
 				F15A89BE1BC566A9003D3BEE /* AppDelegate.m in Sources */,
 				F15A89BB1BC566A9003D3BEE /* main.m in Sources */,
+				F15A89FA1BC568A6003D3BEE /* Photographer.m in Sources */,
+				F15A89EE1BC5678D003D3BEE /* Photomenia.xcdatamodeld in Sources */,
+				F15A89FD1BC56A13003D3BEE /* Photo+Flickr.m in Sources */,
+				F15A89F71BC568A6003D3BEE /* Photo+CoreDataProperties.m in Sources */,
+				F15A89F91BC568A6003D3BEE /* Photographer+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +550,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F15A89EC1BC5678D003D3BEE /* Photomenia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F15A89ED1BC5678D003D3BEE /* Photomenia.xcdatamodel */,
+			);
+			currentVersion = F15A89ED1BC5678D003D3BEE /* Photomenia.xcdatamodel */;
+			path = Photomenia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F15A89AE1BC566A9003D3BEE /* Project object */;
 }
