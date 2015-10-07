@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15A89BB1BC566A9003D3BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89BA1BC566A9003D3BEE /* main.m */; };
+		F15A89BE1BC566A9003D3BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89BD1BC566A9003D3BEE /* AppDelegate.m */; };
+		F15A89C11BC566A9003D3BEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89C01BC566A9003D3BEE /* ViewController.m */; };
+		F15A89C41BC566A9003D3BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15A89C21BC566A9003D3BEE /* Main.storyboard */; };
+		F15A89C61BC566A9003D3BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15A89C51BC566A9003D3BEE /* Assets.xcassets */; };
+		F15A89C91BC566A9003D3BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15A89C71BC566A9003D3BEE /* LaunchScreen.storyboard */; };
+		F15A89D41BC566A9003D3BEE /* PhotomeniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89D31BC566A9003D3BEE /* PhotomeniaTests.m */; };
+		F15A89DF1BC566A9003D3BEE /* PhotomeniaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89DE1BC566A9003D3BEE /* PhotomeniaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15A89D01BC566A9003D3BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15A89AE1BC566A9003D3BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15A89B51BC566A9003D3BEE;
+			remoteInfo = Photomenia;
+		};
+		F15A89DB1BC566A9003D3BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15A89AE1BC566A9003D3BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15A89B51BC566A9003D3BEE;
+			remoteInfo = Photomenia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F15A89B61BC566A9003D3BEE /* Photomenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photomenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A89BA1BC566A9003D3BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F15A89BC1BC566A9003D3BEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F15A89BD1BC566A9003D3BEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F15A89BF1BC566A9003D3BEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F15A89C01BC566A9003D3BEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F15A89C31BC566A9003D3BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F15A89C51BC566A9003D3BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15A89C81BC566A9003D3BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F15A89CA1BC566A9003D3BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15A89CF1BC566A9003D3BEE /* PhotomeniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotomeniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A89D31BC566A9003D3BEE /* PhotomeniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotomeniaTests.m; sourceTree = "<group>"; };
+		F15A89D51BC566A9003D3BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15A89DA1BC566A9003D3BEE /* PhotomeniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotomeniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A89DE1BC566A9003D3BEE /* PhotomeniaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotomeniaUITests.m; sourceTree = "<group>"; };
+		F15A89E01BC566A9003D3BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15A89B31BC566A9003D3BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A89CC1BC566A9003D3BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A89D71BC566A9003D3BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F15A89AD1BC566A9003D3BEE = {
+			isa = PBXGroup;
+			children = (
+				F15A89B81BC566A9003D3BEE /* Photomenia */,
+				F15A89D21BC566A9003D3BEE /* PhotomeniaTests */,
+				F15A89DD1BC566A9003D3BEE /* PhotomeniaUITests */,
+				F15A89B71BC566A9003D3BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F15A89B71BC566A9003D3BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15A89B61BC566A9003D3BEE /* Photomenia.app */,
+				F15A89CF1BC566A9003D3BEE /* PhotomeniaTests.xctest */,
+				F15A89DA1BC566A9003D3BEE /* PhotomeniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15A89B81BC566A9003D3BEE /* Photomenia */ = {
+			isa = PBXGroup;
+			children = (
+				F15A89BC1BC566A9003D3BEE /* AppDelegate.h */,
+				F15A89BD1BC566A9003D3BEE /* AppDelegate.m */,
+				F15A89BF1BC566A9003D3BEE /* ViewController.h */,
+				F15A89C01BC566A9003D3BEE /* ViewController.m */,
+				F15A89C21BC566A9003D3BEE /* Main.storyboard */,
+				F15A89C51BC566A9003D3BEE /* Assets.xcassets */,
+				F15A89C71BC566A9003D3BEE /* LaunchScreen.storyboard */,
+				F15A89CA1BC566A9003D3BEE /* Info.plist */,
+				F15A89B91BC566A9003D3BEE /* Supporting Files */,
+			);
+			path = Photomenia;
+			sourceTree = "<group>";
+		};
+		F15A89B91BC566A9003D3BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F15A89BA1BC566A9003D3BEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F15A89D21BC566A9003D3BEE /* PhotomeniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15A89D31BC566A9003D3BEE /* PhotomeniaTests.m */,
+				F15A89D51BC566A9003D3BEE /* Info.plist */,
+			);
+			path = PhotomeniaTests;
+			sourceTree = "<group>";
+		};
+		F15A89DD1BC566A9003D3BEE /* PhotomeniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15A89DE1BC566A9003D3BEE /* PhotomeniaUITests.m */,
+				F15A89E01BC566A9003D3BEE /* Info.plist */,
+			);
+			path = PhotomeniaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15A89B51BC566A9003D3BEE /* Photomenia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15A89E31BC566A9003D3BEE /* Build configuration list for PBXNativeTarget "Photomenia" */;
+			buildPhases = (
+				F15A89B21BC566A9003D3BEE /* Sources */,
+				F15A89B31BC566A9003D3BEE /* Frameworks */,
+				F15A89B41BC566A9003D3BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photomenia;
+			productName = Photomenia;
+			productReference = F15A89B61BC566A9003D3BEE /* Photomenia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15A89CE1BC566A9003D3BEE /* PhotomeniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15A89E61BC566A9003D3BEE /* Build configuration list for PBXNativeTarget "PhotomeniaTests" */;
+			buildPhases = (
+				F15A89CB1BC566A9003D3BEE /* Sources */,
+				F15A89CC1BC566A9003D3BEE /* Frameworks */,
+				F15A89CD1BC566A9003D3BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15A89D11BC566A9003D3BEE /* PBXTargetDependency */,
+			);
+			name = PhotomeniaTests;
+			productName = PhotomeniaTests;
+			productReference = F15A89CF1BC566A9003D3BEE /* PhotomeniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15A89D91BC566A9003D3BEE /* PhotomeniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15A89E91BC566A9003D3BEE /* Build configuration list for PBXNativeTarget "PhotomeniaUITests" */;
+			buildPhases = (
+				F15A89D61BC566A9003D3BEE /* Sources */,
+				F15A89D71BC566A9003D3BEE /* Frameworks */,
+				F15A89D81BC566A9003D3BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15A89DC1BC566A9003D3BEE /* PBXTargetDependency */,
+			);
+			name = PhotomeniaUITests;
+			productName = PhotomeniaUITests;
+			productReference = F15A89DA1BC566A9003D3BEE /* PhotomeniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15A89AE1BC566A9003D3BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = TimeSet;
+				TargetAttributes = {
+					F15A89B51BC566A9003D3BEE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F15A89CE1BC566A9003D3BEE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F15A89B51BC566A9003D3BEE;
+					};
+					F15A89D91BC566A9003D3BEE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F15A89B51BC566A9003D3BEE;
+					};
+				};
+			};
+			buildConfigurationList = F15A89B11BC566A9003D3BEE /* Build configuration list for PBXProject "Photomenia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15A89AD1BC566A9003D3BEE;
+			productRefGroup = F15A89B71BC566A9003D3BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15A89B51BC566A9003D3BEE /* Photomenia */,
+				F15A89CE1BC566A9003D3BEE /* PhotomeniaTests */,
+				F15A89D91BC566A9003D3BEE /* PhotomeniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15A89B41BC566A9003D3BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A89C91BC566A9003D3BEE /* LaunchScreen.storyboard in Resources */,
+				F15A89C61BC566A9003D3BEE /* Assets.xcassets in Resources */,
+				F15A89C41BC566A9003D3BEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A89CD1BC566A9003D3BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A89D81BC566A9003D3BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15A89B21BC566A9003D3BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A89C11BC566A9003D3BEE /* ViewController.m in Sources */,
+				F15A89BE1BC566A9003D3BEE /* AppDelegate.m in Sources */,
+				F15A89BB1BC566A9003D3BEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A89CB1BC566A9003D3BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A89D41BC566A9003D3BEE /* PhotomeniaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A89D61BC566A9003D3BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A89DF1BC566A9003D3BEE /* PhotomeniaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15A89D11BC566A9003D3BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15A89B51BC566A9003D3BEE /* Photomenia */;
+			targetProxy = F15A89D01BC566A9003D3BEE /* PBXContainerItemProxy */;
+		};
+		F15A89DC1BC566A9003D3BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15A89B51BC566A9003D3BEE /* Photomenia */;
+			targetProxy = F15A89DB1BC566A9003D3BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15A89C21BC566A9003D3BEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15A89C31BC566A9003D3BEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F15A89C71BC566A9003D3BEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15A89C81BC566A9003D3BEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15A89E11BC566A9003D3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F15A89E21BC566A9003D3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F15A89E41BC566A9003D3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photomenia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.Photomenia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F15A89E51BC566A9003D3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photomenia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.Photomenia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F15A89E71BC566A9003D3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotomeniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.PhotomeniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photomenia.app/Photomenia";
+			};
+			name = Debug;
+		};
+		F15A89E81BC566A9003D3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotomeniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.PhotomeniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photomenia.app/Photomenia";
+			};
+			name = Release;
+		};
+		F15A89EA1BC566A9003D3BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotomeniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.PhotomeniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Photomenia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F15A89EB1BC566A9003D3BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotomeniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeset.PhotomeniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Photomenia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15A89B11BC566A9003D3BEE /* Build configuration list for PBXProject "Photomenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A89E11BC566A9003D3BEE /* Debug */,
+				F15A89E21BC566A9003D3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15A89E31BC566A9003D3BEE /* Build configuration list for PBXNativeTarget "Photomenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A89E41BC566A9003D3BEE /* Debug */,
+				F15A89E51BC566A9003D3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F15A89E61BC566A9003D3BEE /* Build configuration list for PBXNativeTarget "PhotomeniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A89E71BC566A9003D3BEE /* Debug */,
+				F15A89E81BC566A9003D3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F15A89E91BC566A9003D3BEE /* Build configuration list for PBXNativeTarget "PhotomeniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A89EA1BC566A9003D3BEE /* Debug */,
+				F15A89EB1BC566A9003D3BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15A89AE1BC566A9003D3BEE /* Project object */;
+}
