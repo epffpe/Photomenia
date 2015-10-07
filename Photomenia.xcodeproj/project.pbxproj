@@ -21,6 +21,8 @@
 		F15A89F91BC568A6003D3BEE /* Photographer+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89F41BC568A6003D3BEE /* Photographer+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		F15A89FA1BC568A6003D3BEE /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89F61BC568A6003D3BEE /* Photographer.m */; settings = {ASSET_TAGS = (); }; };
 		F15A89FD1BC56A13003D3BEE /* Photo+Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A89FC1BC56A13003D3BEE /* Photo+Flickr.m */; settings = {ASSET_TAGS = (); }; };
+		F15A8A021BC57348003D3BEE /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A011BC57348003D3BEE /* FlickrFetcher.m */; settings = {ASSET_TAGS = (); }; };
+		F15A8A051BC57638003D3BEE /* Photographer+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F15A8A041BC57638003D3BEE /* Photographer+Create.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,11 @@
 		F15A89F61BC568A6003D3BEE /* Photographer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
 		F15A89FB1BC56A13003D3BEE /* Photo+Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Flickr.h"; sourceTree = "<group>"; };
 		F15A89FC1BC56A13003D3BEE /* Photo+Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Flickr.m"; sourceTree = "<group>"; };
+		F15A89FF1BC57348003D3BEE /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		F15A8A001BC57348003D3BEE /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		F15A8A011BC57348003D3BEE /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		F15A8A031BC57638003D3BEE /* Photographer+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photographer+Create.h"; sourceTree = "<group>"; };
+		F15A8A041BC57638003D3BEE /* Photographer+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Create.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +129,8 @@
 				F15A89F01BC568A6003D3BEE /* Photo+CoreDataProperties.m */,
 				F15A89FB1BC56A13003D3BEE /* Photo+Flickr.h */,
 				F15A89FC1BC56A13003D3BEE /* Photo+Flickr.m */,
+				F15A8A031BC57638003D3BEE /* Photographer+Create.h */,
+				F15A8A041BC57638003D3BEE /* Photographer+Create.m */,
 				F15A89F11BC568A6003D3BEE /* Photo.h */,
 				F15A89F21BC568A6003D3BEE /* Photo.m */,
 				F15A89F31BC568A6003D3BEE /* Photographer+CoreDataProperties.h */,
@@ -137,6 +146,7 @@
 				F15A89C51BC566A9003D3BEE /* Assets.xcassets */,
 				F15A89C71BC566A9003D3BEE /* LaunchScreen.storyboard */,
 				F15A89CA1BC566A9003D3BEE /* Info.plist */,
+				F15A89FE1BC57348003D3BEE /* Flickr Fetcher */,
 				F15A89B91BC566A9003D3BEE /* Supporting Files */,
 			);
 			path = Photomenia;
@@ -166,6 +176,16 @@
 				F15A89E01BC566A9003D3BEE /* Info.plist */,
 			);
 			path = PhotomeniaUITests;
+			sourceTree = "<group>";
+		};
+		F15A89FE1BC57348003D3BEE /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				F15A89FF1BC57348003D3BEE /* FlickrAPIKey.h */,
+				F15A8A001BC57348003D3BEE /* FlickrFetcher.h */,
+				F15A8A011BC57348003D3BEE /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15A8A051BC57638003D3BEE /* Photographer+Create.m in Sources */,
 				F15A89F81BC568A6003D3BEE /* Photo.m in Sources */,
 				F15A89C11BC566A9003D3BEE /* ViewController.m in Sources */,
 				F15A89BE1BC566A9003D3BEE /* AppDelegate.m in Sources */,
@@ -306,6 +327,7 @@
 				F15A89EE1BC5678D003D3BEE /* Photomenia.xcdatamodeld in Sources */,
 				F15A89FD1BC56A13003D3BEE /* Photo+Flickr.m in Sources */,
 				F15A89F71BC568A6003D3BEE /* Photo+CoreDataProperties.m in Sources */,
+				F15A8A021BC57348003D3BEE /* FlickrFetcher.m in Sources */,
 				F15A89F91BC568A6003D3BEE /* Photographer+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
